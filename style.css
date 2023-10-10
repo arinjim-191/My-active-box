@@ -46,6 +46,8 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    border-bottom: 2px solid rgba(129, 126, 126, 0.349);
  
 
 }
@@ -74,11 +76,16 @@ ul li{
     color: white;
     padding: 14px 30px;
     text-transform: uppercase;
+    transition: 0.5s;
+    
+
     
    
 }
 .header-munu .munu  a:hover{
     -webkit-backdrop-filter: blur(120px);
+    color: tomato;
+    z-index: 100;
 
    
 }
@@ -130,7 +137,14 @@ background-size: cover;
      position: absolute;
      left: 50%;
      transform: translateX(-50%) ;
+     transition: 0.5s;
      }
+.banner-section .container  a:hover {
+        cursor: pointer;
+       
+        padding: 20px 60px;
+        border-radius: 10px;
+    }
 
 /* .... end..... */
 /* .....service-section-start..... */
@@ -522,3 +536,5 @@ background-color: white;
 
 
 /* = responsive =  */
+
+
