@@ -341,7 +341,7 @@ font-weight: 700;
 .indi{
     display: flex;
     margin-top: 64px;
-    margin-left: 200px;
+    margin-left: 2px;
     column-gap: 8px;
 
 }
@@ -363,19 +363,13 @@ background-color: white;
     display: block;
     text-align: center;
     margin-bottom: 100px;
-
 }
-
 .download-section .container h1{
     font-size: 28px;
     font-weight: 300;
     font-family:'Raleway', sans-serif ;
     margin-top: 100px;
-    
-    
-
 }
-
 .download-section .container p{
     font-size:13px;
     font-weight: 500;
@@ -405,12 +399,6 @@ background-color: white;
    
 }
 /* .......download end........... */
-
-
-
-
-
- 
  /* ..............about-section...........  */
 .about-section{
     background-color:#23253C ;
@@ -553,9 +541,39 @@ background-color: white;
        
         padding: 0 1px;
     }
-    .service-section .container {
-      
-        row-gap: 51px;
-        column-gap: 4%;
+    .team-section {
+        padding: 62px 5px;
     }
+    .team-section img{
+        display: inline;
+
+    }
+    .team-section .container {
+        display: flex;
+       
+       
+    }
+    .team-member {
+        width: 20%;
+    }
+    .Testimonial-text {
+        padding-top: 0px;
+        padding-left: 62px;
+    }
+    .Testimonial-image img {
+       
+        height: 100%;
+    }
+    .Testimonial-text p:first-of-type {
+       padding-top: 50px;
+        padding-right: 100px;
+    }
+    .indi {
+       
+        margin-top: 42px;
+        margin-left: 0px;
+       
+    }
+ 
+  
 }
