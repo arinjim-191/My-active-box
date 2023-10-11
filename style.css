@@ -526,7 +526,7 @@ background-color: white;
 /* = responsive =  */
 
 
-@media only screen and (width: 900px) {
+@media only screen and (min-width: 900px) {
 
     .banner-section .container h1 {
         font-size: 50px;
@@ -577,3 +577,28 @@ background-color: white;
  
   
 }
+@media only screen and (min-width: 800px){
+    .banner-section .container h1 {
+        font-size: 45px;
+        line-height: 49px;
+        padding: 0 80px;
+    }
+    .banner-section .container p {
+        font-size: 18px;
+        padding: 0 90px;
+    }
+    .service-section .container .service-item p {
+        
+        font-size: 14px;
+        padding: 0 1px;
+    }
+    .team-section .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .team-member {
+        max-width: calc(40%);
+    }
+}
+
